@@ -1,2 +1,2 @@
 # PTA-Encrypt
-###### Encryption using Pythagorean Triple Algorithm.
+### Encryption using Pythagorean Triple Algorithm.
