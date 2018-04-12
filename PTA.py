@@ -21,7 +21,7 @@ x3 = (2 * p * q) % 26
 y3 = ((p*p) - (q*q)) % 26
 z3 = ((p*p) + (q*q)) % 26
 
-def wrapInt(i):
+def wrapOrd(i):
 	if (i > 25):
 		i = i % 26
 		i = i + 97
@@ -51,47 +51,47 @@ for i in range(0, last):
 	
 	if (i % 9 == 0):
 		element = plaintext[i] + x1
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 	
 	if (i % 9 == 1):
 		element = plaintext[i] + y1
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 
 	if (i % 9 == 2):
 		element = plaintext[i] + z1
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 
 	if (i % 9 == 3):
 		element = plaintext[i] + x2
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 			
 	if (i % 9 == 4):
 		element = plaintext[i] + y2
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 			
 	if (i % 9 == 5):
 		element = plaintext[i] + z2
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 
 	if (i % 9 == 6):
 		element = plaintext[i] + x3
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 			
 	if (i % 9 == 7):
 		element = plaintext[i] + y3
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 			
 	if (i % 9 == 8):
 		element = plaintext[i] + z3
-		element = chr(wrapInt(element))
+		element = chr(wrapOrd(element))
 		ciphertext += element
 
 print("Ciphertext: {0}").format(ciphertext)
