@@ -4,8 +4,8 @@
 
 - Usage: `./PTA.py`  
 `Input plaintext to encrpyt: southeasteuropeanunniversity`  
-`Plaintext: southeasteuropeanunniversity`  
-`Ciphertext: ubfnmheibghciuhedcpatpjuwyba  `
+`Plaintext: southeasteuropeanuniversity`  
+`Ciphertext: ubfnmheibghciuhedcpvgywvmjg`
 
 Original Paper: [Data Encryption and Decryption Using New Pythagorean Triple Algorithm](www.iaeng.org/publication/WCE2014/WCE2014_pp516-519.pdf)
 
